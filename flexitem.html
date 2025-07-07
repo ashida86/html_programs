@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+    .flex-container {
+  display: flex;
+  background-color: #f1f1f1; 
+  height: 200px;
+}
+
+  .flex-container > div {
+  background-color: dodgerblue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+  </style>
+</head>
+<body>
+     <div class="flex-container" >
+    <!-- <div style="order: 3";>1</div>
+    <div style="order:4";>2</div>
+    <div style="order:1";>3</div>
+    <div style="order:2";>4</div> -->items orderproperty
+
+    <!-- <div style="flex-grow: 1">1</div> -->
+  <!-- <div style="flex-grow: 1">2</div> -->
+  <!-- <div style="flex-grow: 8">3</div>3rd flex item grow 8 time faster than the other flex items -->
+
+  <!-- <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div> donot let the 3rd flex item shrink as much as other flex item
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div> -->
+
+  <!-- <div>1</div>
+  <div>2</div>
+  <div style="flex-basis: 200px">3</div>Set the initial length of the third flex item to 200 pixels
+  <div>4</div> -->
+
+  <!-- <div>1</div>
+  <div>2</div>
+  <div style="flex: 0 0 200px">3</div>
+  <div>4</div>the third flex item not growable (0), not shrinkable (0), and with an initial length of 200 pixels: -->
+ 
+
+  <!-- <div>1</div>
+  <div>2</div>
+  <div style="align-self: center">3</div>Align the third flex item in the middle of the container:
+  <div>4</div> --> 
+
+  <!-- <div>1</div>
+  <div style="align-self: flex-start">2</div>
+  <div style="align-self: flex-end">3</div>The "align-self: center;" aligns the selected flex item in the middle of the container:
+  <div>4</div> -->
+    </div>
+</body>
+</html>
